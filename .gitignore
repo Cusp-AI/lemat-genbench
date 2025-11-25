@@ -178,7 +178,6 @@ src/lemat_genbench/.DS_Store
 *.gz
 
 # Ignore .cif
-*.cif
 
 # Large data files - embeddings
 data/*_embeddings.npy
@@ -192,8 +191,15 @@ submissions/
 final_results/
 final_results_new/
 results_final/
-
+hf_leaderboard_v0_results/
+hf_leaderboard_v0_results.zip
+multi_mlip_results_plots.zip
+post_relax_mp20.zip
+pre_relax_mp20.zip
 dummy.csv
+pre_relax_mp20/
+post_relax_mp20/
+multi_mlip_results_plots/
 
 data/reference_fingerprints/
 data/reference_fingerprints_new/
@@ -218,7 +224,9 @@ command.txt
 results_october/
 results_before_and_after_relax/
 results_neurips/
+validity_comparison_results/analysis/latex_captions.tex
 
 # Baseline dataset sampling
 baseline_sampling.log
 baseline_data/checkpoints/*.pkl
+baseline_results/
