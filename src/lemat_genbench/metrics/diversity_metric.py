@@ -405,7 +405,7 @@ class PhysicalSizeComponentMetric(BaseMetric):
             smallest_lattice_size=1.0,
             largest_lattice_size=100.0,
         )
-        self._init_packing_factor_histogram(
+        self._init_reference_packing_factor_histogram(
             smallest_packing_factor=0.0,
             largest_packing_factor=1.0,
         )
