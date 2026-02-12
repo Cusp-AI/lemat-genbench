@@ -167,9 +167,9 @@ class ChargeNeutralityMetric(BaseMetric):
         
         comp = Composition(structure.composition)
         here = Path(__file__).resolve().parent
-        three_up = here.parents[2]
+        package_root = here.parent
 
-        with open(three_up / "data" / "lemat_icsd_oxi_state_mapping.json", "r") as f:
+        with open(package_root / "data" / "lemat_icsd_oxi_state_mapping.json", "r") as f:
             oxi_state_mapping = json.load(f)
 
         oxi_states_override = {}
